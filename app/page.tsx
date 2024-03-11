@@ -89,7 +89,9 @@ export default function Home() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <pre>{JSON.stringify(cookie, null, 2)}</pre>
+                <pre className="text-wrap">
+                  {JSON.stringify(cookie, null, 2)}
+                </pre>
               </CardContent>
             </Card>
           </div>

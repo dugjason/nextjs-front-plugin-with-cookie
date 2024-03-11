@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import Link from "next/link";
 
 export default function Home() {
   const cookie = cookies().get("plugin-cookie-demo");
@@ -26,7 +27,14 @@ export default function Home() {
                 <CardTitle>Next.js / Front Plugin demo with Cookies</CardTitle>
                 <CardDescription>
                   This is a Next.js demo application built as a Front plugin. It
-                  sets and removes a cookie using Next.js Server Actions.
+                  sets and removes a cookie using Next.js Server Actions.{" "}
+                  <Link
+                    className="text-blue-500 underline"
+                    href="https://github.com/dugjason/nextjs-front-plugin-with-cookie"
+                    target="_blank"
+                  >
+                    Code is available on GitHub.
+                  </Link>
                 </CardDescription>
               </CardHeader>
             </Card>

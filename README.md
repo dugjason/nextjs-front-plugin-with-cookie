@@ -24,6 +24,12 @@ Create a new app with **Sidebar Plugin** feature, and add `http://localhost:3000
 
 Now you can click back into your Front inbox, and select the plugin in your sidebar.
 
+## Demo
+
+A demo version of this application is published at `https://nextjs-front-plugin-with-cookie.vercel.app/`.
+
+You are welcome to test this by creating a Front Sidebar Plugin app, and adding this as the Side panel URL.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
